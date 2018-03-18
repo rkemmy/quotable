@@ -8,6 +8,14 @@ import { Component, OnInit } from '@angular/core';
 export class AboutComponent implements OnInit {
   quote = 'If you think education is expensive, try ignorance!'
 
+  inputQuote = null;
+
+  btnDisable = false;
+
+  ChangeQuote(){
+    this.quote = this.inputQuote
+  }
+
   constructor() { }
 
   ngOnInit() {

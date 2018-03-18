@@ -3,7 +3,11 @@
     <ul class="list-group">
       <li class="list-group-item">{{quote}}</li>
       <li class="list-group-item">
-        <button class="btn btn-success">Create Quote</button>
+        <input type="text" class="form-control" [(ngModel)]="inputQuote">
+      </li>
+
+      <li class="list-group-item">
+        <button class="btn btn-success" [disabled]="btnDisable" (click)="ChangeQuote()">Change Quote</button>
       </li>
 
     </ul>
