@@ -5,7 +5,12 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { RouterModule, Routes } from '@angular/router';
 
+const routeLists : Routes =[
+  {path:"", component:HomeComponent},
+  {path:"about", component:AboutComponent}
+]
 
 @NgModule({
   declarations: [
@@ -16,6 +21,7 @@ import { AboutComponent } from './about/about.component';
   imports: [
     BrowserModule,
     FormsModule
+    RouterModule.forRoot(routeLists)
   ],
   providers: [],
   bootstrap: [AppComponent]
