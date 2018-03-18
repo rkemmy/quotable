@@ -1,13 +1,18 @@
 <div class="row">
   <div class="col-4 offset-4">
     <ul class="list-group">
-      <li class="list-group-item">{{quote}}</li>
-      <li class="list-group-item">
-        <input type="text" class="form-control" [(ngModel)]="inputQuote">
-      </li>
+      <li class="list-group-item" *ngFor="let quote of quotes">{{quote}}</li>
 
       <li class="list-group-item">
-        <button class="btn btn-success" [disabled]="btnDisable" (click)="ChangeQuote()">Change Quote</button>
+        <button class="btn btn-info" (click)="AddQuote()">Add Quote</button>
+      </li>
+
+      <li class="list-group-item" *ngIf="Adding">
+        <input type="text" class="form-control" [(ngModel)]="inputQuote">
+
+        <br>
+
+        <button class="btn btn-success" [disabled]="!inputQuote" (click)="CreateQuote()">Create Quote</button>
       </li>
 
     </ul>
