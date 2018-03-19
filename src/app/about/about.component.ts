@@ -16,7 +16,7 @@ export class AboutComponent implements OnInit {
     this.quotes.push(this.inputQuote)
     this.inputQuote = null
     this.Adding = false
-    
+
   }
 
   AddQuote(){

@@ -20,7 +20,7 @@ const routeLists : Routes =[
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
     RouterModule.forRoot(routeLists)
   ],
   providers: [],
