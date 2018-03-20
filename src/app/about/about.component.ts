@@ -11,6 +11,7 @@ export class AboutComponent implements OnInit {
   inputQuote = null;
   btnDisable = false;
   Adding = false;
+  votes = 0;
 
   CreateQuote(){
     this.quotes.push(this.inputQuote)
@@ -23,7 +24,16 @@ export class AboutComponent implements OnInit {
     this.Adding = !this.Adding
   }
 
-  constructor() { }
+  UpVote(){
+    this.votes += 1;
+  }
+
+  DownVote(){
+    this.votes -= 1;
+  }
+
+  constructor() {
+  this.votes = 0}
 
   ngOnInit() {
   }
