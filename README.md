@@ -2,6 +2,20 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
+Author : Risper Kemunto
+
+##Installation requirements/Technologies used
+node package manager(npm)
+Angular cli
+Bootstrap
+watchman
+
+## Description
+The project allows the user to create, upvote and downvote quotes
+
+## Known Bugs
+There were errors generated when the 
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
