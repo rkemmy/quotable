@@ -14,7 +14,7 @@ watchman
 The project allows the user to create, upvote and downvote quotes
 
 ## Known Bugs
-There were errors generated when creating event emitters for the upvote and downvote buttons. The issues should likely be resolved in the next version of the project 
+There were errors generated when creating event emitters for the upvote and downvote buttons. The issues should likely be resolved in the next version of the project
 
 ## Development server
 
@@ -39,3 +39,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## Contact
+To contribute to the exising code reach me on rkemmy.rk69@gmail.com
+
+
+##License and Terms of Use
+[MIT License](License) This application's source code is free for any open source projects
+ © RisperKemunto
