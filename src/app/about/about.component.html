@@ -5,7 +5,7 @@
     <ul class="list-group">
 
       <li class="list-group-item" *ngFor="let quote of quotes">{{quote}}<br><br>
-        <button class="btn btn-info" (click)="AddQuote()">Upvote</button> <button class="btn btn-info" (click)="AddQuote()">Downvote</button></li>
+        <button class="btn btn-info" (click)="UpVote()">Upvote</button>{{votes}} <button class="btn btn-info" (click)="DownVote()">Downvote</button></li>{{votes}}
 
       <li class="list-group-item">
         <button class="btn btn-info" (click)="AddQuote()">Add Quote</button>
