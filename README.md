@@ -14,7 +14,7 @@ watchman
 The project allows the user to create, upvote and downvote quotes
 
 ## Known Bugs
-There were errors generated when the 
+There were errors generated when creating event emitters for the upvote and downvote buttons. The issues should likely be resolved in the next version of the project 
 
 ## Development server
 
